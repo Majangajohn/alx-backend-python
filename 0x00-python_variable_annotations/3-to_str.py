@@ -1,18 +1,17 @@
 #!/usr/bin/env python3
-"""a script for a type-annotated function
-to_str that takes a float n as
-argument and returns the string representation of the float."""
+"""
+This is a module that provides a function for converting a float to a string.
+"""
 
-import math
 
-def to_str (n:float)-> str:
-	"""_summary_
+def to_str(n: float) -> str:
+    """
+    This function converts a float to a string and returns the result.
 
-	Args:
-		n (float): float
+    Parameters:
+    n (float): The float to convert.
 
-	Returns:
-		str: string
-	"""
-
-	return str(n)
+    Returns:
+    str: The string representation of n.
+    """
+    return str(n)
