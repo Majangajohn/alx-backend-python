@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""a script for type-annotated function add that
-takes a float a and a float b as arguments
-and returns their sum as a float."""
+"""
+This is a module that provides a function for adding two numbers.
+"""
 
 
-def add(a:float, b:float)-> float:
-	"""_summary_
+def add(a: float, b: float) -> float:
+    """
+    This function adds two numbers and returns the result.
 
-	Args:
-		a (float): _description_
-		b (float): _description_
+    Parameters:
+    a (float): The first number.
+    b (float): The second number.
 
-	Returns:
-		float: _description_
-	"""
-        return a + b
+    Returns:
+    float: The sum of a and b.
+    """
+    return a + b
